@@ -1,0 +1,51 @@
+/* Place a custom css file in your own project to use this. */
+.langkah {
+  margin-right: 1em;
+  margin-right: 2px !important;
+  padding: 13px;
+}
+.bahan {
+  
+  margin-right: 1em;
+  margin-right: 2px !important;
+  padding: 13px;
+}
+.bahan-list {
+  
+    font-size: 14px;
+    line-height: 1.em;
+    padding-bottom: 1px !important;
+    padding-top: 0.5px !important;
+    border-bottom: dashed 1.3px silver;
+}
+
+.langkah-list {
+    font-size: 14px;
+    line-height: 1.2em;
+    padding-bottom: 1px !important;
+    padding-top: 1px !important;
+    border-bottom: dashed 1.1px silver;
+}
+.post-content {
+  font-size: 12;
+}
+
+/*related */
+.card-text {
+  text-align: center;
+  padding-top: 2px;
+  font-weight: 300;
+  text-align: center;
+  padding:15px;
+  
+  
+}
+.additional-text {
+  padding-top: 5px;
+  font-size: 15px;
+  border-bottom: dashed 1.3px silver;
+}
+
+
+
+
