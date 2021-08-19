@@ -1,0 +1,27 @@
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<h4 style="text-align: center;">Related Posts</h4>
+<br>
+	{{ range . }}
+	
+<a href="{{ .RelPermalink }}" class="card" style="width:100%; border: none;
+  border-radius:16px; border-bottom: dashed 1.1px silver;
+    ">
+    <img style="width:100%; border: none;
+  border-radius:16px; box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.16);" src="{{ .Params.cover }}" alt="{{ .Title }}">
+    <div style="text-align: center;"class="card-text">
+      {{ .Title }}
+    </div>
+    <div class="additional-text">
+
+    </div>
+  </a>
+  <br>
+	{{ end }}
+
+
+
+
+
+
+{{ end }}
