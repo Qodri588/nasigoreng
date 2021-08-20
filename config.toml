@@ -1,5 +1,0 @@
-baseURL = 'https://nasigoreng.pages.dev'
-languageCode = 'id'
-title = 'Kumpulan Resep Nasi goreng'
-Theme = "paper"
-Type = "posts"
