@@ -34,7 +34,6 @@
     {{- end }}
     <!-- Script -->
 {{ partial "schema.html" . }}
-{{ partial "web.html" . }}
 <meta name="google-site-verification" content="VR-MvHNt2pKQg9Cn2KTgzJON6sCPriTQL1hXnlaxKtQ" />
   </head>
   <body class="{{ if eq .Kind `page` }}single{{ else }}list{{ if .IsHome }} home{{ end }}{{ end }}">
